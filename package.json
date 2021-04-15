@@ -9,10 +9,13 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.8.6",
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.0-beta2",
     "bootstrap-icons": "^1.4.0",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "postcss": "^8.2.10",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.2.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -35,7 +38,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+		"strict": "off"
+		}
   },
   "browserslist": [
     "> 1%",
