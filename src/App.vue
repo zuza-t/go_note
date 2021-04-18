@@ -38,6 +38,7 @@
   import NotesList from "./components/NotesList.vue";
   import AddNoteForm from "./components/AddNoteForm.vue";
   import Note from "./components/Note.vue";
+
   export default {
     components: {
       NotesList,
@@ -96,6 +97,7 @@
   #app {
 	height: 100%;
   }
+
   .cover {
     background-image: url("./assets/background.jpg");
     background-position: center;
